@@ -1,0 +1,8 @@
+<ion-view>
+  <ion-content class="has-header">
+    测试界面{{$ctrl.title}}
+    <ul id="content">
+      <li ng-repeat="item in $ctrl.items" on-listen-repeat-finished="$ctrl.finishFunc()">{{item}}</li>
+    </ul>
+  </ion-content>
+</ion-view>
